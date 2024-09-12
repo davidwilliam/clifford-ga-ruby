@@ -10,6 +10,18 @@ This project uses only Ruby standard libraries, so once you have Ruby installed 
 
 ## Usage
 
+Once you have the project in your working environment, at the root directory of the project, run:
+
+```bash
+gem install bundler
+``` 
+
+if you don't have `Bundler` installed yet, and then run
+
+```bash
+bundle install
+``` 
+
 ### Running tests
 
 Once Ruby is installed on your machine, from the command line and in the root directory of the project, run the tests to check the code with the following command:
