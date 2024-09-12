@@ -26,20 +26,22 @@ bundle install
 
 Once Ruby is installed on your machine, from the command line and in the root directory of the project, run the tests to check the code with the following command:
 
-`$ rake`
+```bash
+bundle exec rake
+```
 
 You should get a result similiar to the following:
 
 ```console
-Run options: --seed 9109
+Run options: --seed 52080
 
 # Running:
 
-...........
+................................
 
-Finished in 5.316182s, 2.0692 runs/s, 9.0290 assertions/s.
+Finished in 0.009734s, 3287.4460 runs/s, 5033.9017 assertions/s.
 
-11 runs, 48 assertions, 0 failures, 0 errors, 0 skips
+32 runs, 49 assertions, 0 failures, 0 errors, 0 skips
 ```
 
 ### Ruby Interactive Shell
